@@ -1,13 +1,13 @@
 {
   "private": false,
-  "name": "@xact-wallet-sdk/nft-cli",
+  "name": "@fugitivesclub/nft-cli",
   "description": "This CLI allow you to mint your NFT's ",
-  "version": "0.0.13",
-  "author": "Xact-Team",
+  "version": "0.0.1",
+  "author": "FugitivesClub <contact@fugitivesclub.com>",
   "bin": {
     "nft": "bin/run"
   },
-  "bugs": "https://github.com/git@github.com:Xact-Team/nft-cli.git/nft-cli/issues",
+  "bugs": "https://github.com/Fugitives-Club/nft-cli.git/nft-cli/issues",
   "dependencies": {
     "@oclif/core": "^1",
     "@oclif/errors": "^1.3.5",
@@ -55,9 +55,14 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/git@github.com:Xact-Team/nft-cli.git/nft-cli",
+  "homepage": "https://github.com/Fugitives-Club/nft-cli.git",
   "keywords": [
-    "oclif"
+    "FugitivesClub",
+    "Hedera",
+    "IPFS",
+    "CLI",
+    "NFT",
+    "Mint"
   ],
   "license": "MIT",
   "main": "dist/index.js",
@@ -79,7 +84,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/git@github.com:Xact-Team/nft-cli.git/nft-cli"
+    "url": "https://github.com/Fugitives-Club/nft-cli.git"
   },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
