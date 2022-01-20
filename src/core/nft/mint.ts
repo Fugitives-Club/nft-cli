@@ -4,7 +4,7 @@ import {
   DebugLevel,
   NFT,
   NftCreated,
-} from '@xact-wallet-sdk/nft';
+} from '@fugitivesclub/nft';
 import 'reflect-metadata';
 
 import { Configuration } from '../configuration/interfaces/configuration.interface';
