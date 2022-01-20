@@ -2,7 +2,7 @@
   "private": false,
   "name": "@fugitivesclub/nft-cli",
   "description": "This CLI allow you to mint your NFT's ",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "FugitivesClub <contact@fugitivesclub.com>",
   "bin": {
     "nft": "bin/run"
