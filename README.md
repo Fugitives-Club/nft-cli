@@ -16,11 +16,11 @@
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @xact-wallet-sdk/nft-cli
+$ npm install -g @fugitivesclub/nft-cli
 $ nft COMMAND
 running command...
 $ nft (--version)
-@xact-wallet-sdk/nft-cli/0.0.13 darwin-x64 node-v14.18.1
+@fugitivesclub/nft-cli/0.0.1 darwin-x64 node-v14.18.1
 $ nft --help [COMMAND]
 USAGE
   $ nft COMMAND
@@ -139,7 +139,7 @@ USAGE
   $ nft mint-multiple -f <value> [-c <value>]
 
 FLAGS
-  -c, --config=<value>  [default: /Users/tailorweb./Lab/xact/nft-cli/config.json] Path of your config file
+  -c, --config=<value>  [default: /Users/tailorweb./Lab/SDK/nft-cli/config.json] Path of your config file
   -f, --from=<value>    (required) Path from which you want to create your NFT's
 
 DESCRIPTION
@@ -154,7 +154,7 @@ EXAMPLES
         ...
 ```
 
-_See code: [dist/commands/mint-multiple/index.ts](https://github.com/git@github.com:Xact-Team/nft-cli.git/nft-cli/blob/v0.0.13/dist/commands/mint-multiple/index.ts)_
+_See code: [dist/commands/mint-multiple/index.ts](https://github.com/Fugitives-Club/nft-cli/blob/v0.0.1/dist/commands/mint-multiple/index.ts)_
 
 ## `nft mint-single`
 
@@ -165,7 +165,7 @@ USAGE
   $ nft mint-single -m <value> -i <value> [-c <value>] [-s <value>]
 
 FLAGS
-  -c, --config=<value>    [default: /Users/tailorweb./Lab/xact/nft-cli/config.json] Path of your config file
+  -c, --config=<value>    [default: /Users/tailorweb./Lab/SDK/nft-cli/config.json] Path of your config file
   -i, --image=<value>     (required) Path of your image file
   -m, --metadata=<value>  (required) Path of your json metadata file
   -s, --supply=<value>    [default: 1] Amount of supply
@@ -182,5 +182,5 @@ EXAMPLES
         ...
 ```
 
-_See code: [dist/commands/mint-single/index.ts](https://github.com/git@github.com:Xact-Team/nft-cli.git/nft-cli/blob/v0.0.13/dist/commands/mint-single/index.ts)_
+_See code: [dist/commands/mint-single/index.ts](https://github.com/Fugitives-Club/nft-cli/blob/v0.0.1/dist/commands/mint-single/index.ts)_
 <!-- commandsstop -->
